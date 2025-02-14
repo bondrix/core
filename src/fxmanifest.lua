@@ -1,15 +1,14 @@
 fx_version 'cerulean'
 game 'gta5'
 
-name 'bondrix-resource'
+name 'bondrix-core'
 author 'Bondrix'
-description 'Resource description goes here.'
-repository 'https://github.com/bondrix/resource'
+description 'The core functionality of the framework.'
+repository 'https://github.com/bondrix/core'
 version '1.0.0'
 
 dependencies {
-    'bondrix-example-1',
-    'bondrix-example-2'
+    'bondrix-lib'
 }
 
 client_scripts {

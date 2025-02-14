@@ -1,5 +1,7 @@
-BondrixResource = {}
+BondrixCore = {}
+
+BondrixLib = exports['bondrix-lib']:GetObject()
 
 exports('GetObject', function()
-    return BondrixResource
+    return BondrixCore
 end)
